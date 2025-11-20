@@ -72,4 +72,32 @@ Here, I replicate and extend that work using **public datasets (e.g., CIC-IDS201
 ---
 
 ## 📦 Folder Structure
+AI-Network-Threat-Detection/
+├── data/ # Raw + preprocessed logs/datasets
+├── notebooks/ # Jupyter Notebooks for EDA + modeling
+├── models/ # Saved model weights
+├── src/ # Python scripts (pipeline, preprocessing, training)
+├── outputs/ # Results, plots, summaries
+├── README.md # Project overview
+└── requirements.txt # Dependencies
+
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone repo
+git clone https://github.com/your-username/AI-Network-Threat-Detection.git
+cd AI-Network-Threat-Detection
+
+# (Optional) Create virtual environment
+python -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run sample pipeline
+jupyter notebook notebooks/01_suricata_preprocessing.ipynb
 
